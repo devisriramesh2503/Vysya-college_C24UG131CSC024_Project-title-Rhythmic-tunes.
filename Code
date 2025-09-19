@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Beat Start</title>
+        <link rel="stylesheet" type="text/css" href="Beat.css">
+    </head>
+    <body><center>
+        
+     </center>
+           <center>
+        <h1>Beat Start</h1>
+
+        <p><H2>Are you ready to get Soaked In the Music Rain?</H2></p>
+        <img src="c:\Users\ELCOT\Downloads\StockCake-Rhythmic Anime Fusion_1755416804.jpg" alt="" srcset=""Width="400">
+
+        </center>
+        <center>
+<Audio controls></Audio>
+        <source src="c:\Users\ELCOT\Downloads\chikubuku_railey_2.mp3" type="Audio/mp3">
+        
+        <div><button onclick="playAudio()">??</button>
+        <button onclick="pauseAudio()">??</button>
+        <button onclick="stopAudio()">??</button></div>
+        </center>
+        
+        <script>
+            var audio = document.getElementsByTagName("audioPlayer");
+        
+            function playAudio() {
+                audio.play();
+            }
+            function pauseAudio() {
+                audio.pause();
+            }
+            function stopAudio() {
+                audio.pause();
+                audio.currentTime = 0;
+            }
+        </script>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                height: 100vh;
+                width: 100%;
+                background: -o-linear-gradient(to bottom,#1e1e1e,#3b3b3b);
+                color: #fff;
+                font-family: 'Arial',sans-serif;
+                background-color:black;
+                font-family: white;
+                
+        font-size: 18px;
+        margin-bottom: 20px;
+        color: white;
+img{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0,5);
+} 
+                
+            }
+            
+            
+
+        </style>
+            
+
+    </body>
+
+</html>
